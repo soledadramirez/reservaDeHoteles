@@ -1,0 +1,106 @@
+[
+    {
+      "id": 1,
+      "nombre": "Hotel Córdoba",
+      "descripcion": "El hotel Córdoba ofrece propiedad de cuatro estrellas con conexión gratuita a internet. El hotel está ubicado en la famosa calle de La Cañada, en el centro financiero de Córdoba.",
+      "direccion": "Marcelo T de ALvear 363, Córdoba",
+      "telefono": "4567-8989",
+      "comida": ["pensión completa", "media pension"],
+      "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+      "categoria": "4 estrellas",
+      "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta"]
+    },
+    {
+        "id": 2,
+        "nombre": "Ayres de Salta Hotel",
+        "descripcion": "Este elegante hotel de 4 estrellas está ubicado en el centro histórico de Salta y tiene azotea con pileta y vistas a la ciudad y al valle de Lerma.",
+        "direccion": "General Güemes 650, Salta",
+        "telefono": "5673-9845",
+        "comida": ["pensión completa", "media pension"],
+        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "categoria": "4 estrellas",
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado"]
+      },
+      {
+        "id": 3,
+        "nombre": "Huentala Hotel",
+        "descripcion": "El Huentala Hotel está situado a solo 600 metros de la plaza de la Independencia y ofrece variados servicios",
+        "direccion": "Primitivo de la Reta 1007, Mendoza",
+        "telefono": "0234-6543",
+        "comida": ["pensión completa", "media pension"],
+        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "categoria": "4 estrellas",
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+      },
+      {
+        "id": 4,
+        "nombre": "Hotel Huemul",
+        "descripcion": "El Hotel Huemul se encuentra en San Carlos de Bariloche y ofrece restaurante de cocina regional, bar, centro de fitness, wifi gratis, desayuno buffet y acceso directo a la playa.",
+        "direccion": "Av. Bustillo 1500, San Carlos de Bariloche",
+        "telefono": "0345-7629",
+        "comida": ["pensión completa", "media pension"],
+        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "categoria": "5 estrellas",
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+      },
+      {
+        "id": 5,
+        "nombre": "Hotel Facón del Mar",
+        "descripcion": "El Facón Del Mar Hotel ofrece alojamiento en Mar del Plata, a 350 metros de la playa. Alberga un restaurante y un bar donde se sirve el desayuno. También hay una sala de juegos.",
+        "direccion": "Av, Colón 2198, Mar del Plata",
+        "telefono": "0373-7643",
+        "comida": ["pensión completa", "media pension"],
+        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "categoria": "4 estrellas",
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+      },
+      {
+        "id": 5,
+        "nombre": "Hotel Mar del Plata",
+        "descripcion": "El Hotel Mar del Plata se encuentra en Mar del Plata y ofrece alojamiento con pileta cubierta. Se sirve un desayuno todas las mañanas.",
+        "direccion": "Av, Colón 513, Mar del Plata",
+        "telefono": "0373-5540",
+        "comida": ["pensión completa", "media pension"],
+        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "categoria": "3 estrellas",
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+      },
+      {
+        "id": 6,
+        "nombre": "Hotel Cataratas",
+        "descripcion": "El Hotel Cataratas está situado cerca de la selva misionera y ofrece un intenso contacto con la naturaleza, fantásticas piscinas y varias opciones de ocio.",
+        "direccion": "Ruta 12 km 4, Puerto Iguazú",
+        "telefono": "0373-5540",
+        "comida": ["pensión completa", "media pension"],
+        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "categoria": "3 estrellas",
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+      },
+      {
+        "id": 7,
+        "nombre": "Savoy Hotel",
+        "descripcion": "El Savoy Hotel, que presenta una decoración y una fachada elegantes, ofrece alojamiento de diseño en pleno centro de la ciudad, en la avenida Callao, a solo 200 metros de la avenida Corrientes.",
+        "direccion": "Av. Callao 181, CABA",
+        "telefono": "3249-0976",
+        "comida": ["pensión completa", "media pension"],
+        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "categoria": "4 estrellas",
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+      },
+      {
+        "id": 8,
+        "nombre": "Hotel Clásico",
+        "descripcion": "El Hotel Clasico goza de una ubicación céntrica en Buenos Aires y ofrece habitaciones confortables con conexión de wifi gratis. El hotel está a 600 metros de la plaza Serrano.",
+        "direccion": "Costa Rica 5480, CABA",
+        "telefono": "3249-0976",
+        "comida": ["pensión completa", "media pension"],
+        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "categoria": "4 estrellas",
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+      },
+
+
+
+
+
+]
