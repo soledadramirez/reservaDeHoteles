@@ -8,7 +8,8 @@
       "comida": ["pensión completa", "media pension"],
       "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
       "categoria": "4 estrellas",
-      "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta"]
+      "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta"],
+      "imagen": "/imagenes/hotel1.jpeg"
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
         "comida": ["pensión completa", "media pension"],
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "4 estrellas",
-        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado"]
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado"],
+        "imagen": "/imagenes/hotel2.jpeg"
       },
       {
         "id": 3,
@@ -30,7 +32,8 @@
         "comida": ["pensión completa", "media pension"],
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "4 estrellas",
-        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
+        "imagen": "/imagenes/hotel3.jpeg"
       },
       {
         "id": 4,
@@ -41,7 +44,8 @@
         "comida": ["pensión completa", "media pension"],
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "5 estrellas",
-        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
+        "imagen": "/imagenes/hotel4.jpeg"
       },
       {
         "id": 5,
@@ -52,7 +56,8 @@
         "comida": ["pensión completa", "media pension"],
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "4 estrellas",
-        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
+        "imagen": "/imagenes/hotel5.webp"
       },
       {
         "id": 5,
@@ -63,7 +68,8 @@
         "comida": ["pensión completa", "media pension"],
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "3 estrellas",
-        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
+        "imagen": "/imagenes/hotel6.jpeg"
       },
       {
         "id": 6,
@@ -74,7 +80,8 @@
         "comida": ["pensión completa", "media pension"],
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "3 estrellas",
-        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
+        "imagen": "/imagenes/hotel7.jpeg"
       },
       {
         "id": 7,
@@ -85,7 +92,8 @@
         "comida": ["pensión completa", "media pension"],
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "4 estrellas",
-        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
+        "imagen": "/imagenes/hotel8.jpeg"
       },
       {
         "id": 8,
@@ -96,11 +104,7 @@
         "comida": ["pensión completa", "media pension"],
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "4 estrellas",
-        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"]
-      },
-
-
-
-
-
+        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
+        "imagen": "/imagenes/hotel1.jpeg"
+      }
 ]
