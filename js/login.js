@@ -14,11 +14,18 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
   
     if (usuarioEncontrado) {
       // Inicio de sesión exitoso
-      alert('Inicio de sesión exitoso');
+      var loginLink = document.getElementById('inicio');
+      loginLink.style.display = 'none'; 
+      var registerLink = document.getElementById('registerLink');
+      registerLink.style.display = 'none';
+      var logoutLink = document.getElementById('logoutLink');
+      logoutLink.style.display = "block";
+      
     } else {
       // Credenciales incorrectas
-      alert('Credenciales incorrectas. Inténtalo de nuevo.');
+      alert('El mail ingresado no es correcto. Intentalo de nuevo.');
     }
+
   });
   
   
