@@ -21,6 +21,7 @@ function mostrarOrganizacion (hotel) {
     // Crear un elemento div para la card
     var cardDiv = document.createElement('div');
     cardDiv.classList.add('card');
+    cardDiv.classList.add("my-1");
 
     // Crear un elemento img para la imagen de la card
     var img = document.createElement('img');
