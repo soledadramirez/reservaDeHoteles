@@ -9,7 +9,7 @@
       "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
       "categoria": "4 estrellas",
       "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta"],
-      "imagen": "/imagenes/hotel1.jpeg"
+      "imagen": "/imagenes/hotel9.jpeg"
     },
     {
         "id": 2,
@@ -60,7 +60,7 @@
         "imagen": "/imagenes/hotel5.webp"
       },
       {
-        "id": 5,
+        "id": 6,
         "nombre": "Hotel Mar del Plata",
         "descripcion": "El Hotel Mar del Plata se encuentra en Mar del Plata y ofrece alojamiento con pileta cubierta. Se sirve un desayuno todas las mañanas.",
         "direccion": "Av, Colón 513, Mar del Plata",
@@ -69,10 +69,10 @@
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "3 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
-        "imagen": "/imagenes/hotel6.jpeg"
+        "imagen": "/imagenes/hotel1.jpeg"
       },
       {
-        "id": 6,
+        "id": 7,
         "nombre": "Hotel Cataratas",
         "descripcion": "El Hotel Cataratas está situado cerca de la selva misionera y ofrece un intenso contacto con la naturaleza, fantásticas piscinas y varias opciones de ocio.",
         "direccion": "Ruta 12 km 4, Puerto Iguazú",
@@ -81,10 +81,10 @@
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "3 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
-        "imagen": "/imagenes/hotel7.jpeg"
+        "imagen": "/imagenes/hotel8.jpeg"
       },
       {
-        "id": 7,
+        "id": 8,
         "nombre": "Savoy Hotel",
         "descripcion": "El Savoy Hotel, que presenta una decoración y una fachada elegantes, ofrece alojamiento de diseño en pleno centro de la ciudad, en la avenida Callao, a solo 200 metros de la avenida Corrientes.",
         "direccion": "Av. Callao 181, CABA",
@@ -93,10 +93,10 @@
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "4 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
-        "imagen": "/imagenes/hotel8.jpeg"
+        "imagen": "/imagenes/hotel6.jpeg"
       },
       {
-        "id": 8,
+        "id": 9,
         "nombre": "Hotel Clásico",
         "descripcion": "El Hotel Clasico goza de una ubicación céntrica en Buenos Aires y ofrece habitaciones confortables con conexión de wifi gratis. El hotel está a 600 metros de la plaza Serrano.",
         "direccion": "Costa Rica 5480, CABA",
@@ -105,6 +105,6 @@
         "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
         "categoria": "4 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
-        "imagen": "/imagenes/hotel1.jpeg"
+        "imagen": "/imagenes/hotel7.jpeg"
       }
 ]
