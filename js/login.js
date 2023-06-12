@@ -11,19 +11,13 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     var usuarioEncontrado = usuarios.find(function(usuario) {
       return usuario.username === username && usuario.password === password;
     });
-  
     if (usuarioEncontrado) {
-      // Inicio de sesión exitoso
-      var loginLink = document.getElementById('inicio');
-      loginLink.style.display = 'none'; 
-      var registerLink = document.getElementById('registerLink');
-      registerLink.style.display = 'none';
-      var logoutLink = document.getElementById('logoutLink');
-      logoutLink.style.display = "block";
+      window.location.href = './homeLogueado.html';
+      // Inicio de sesión exitoso 
       
     } else {
       // Credenciales incorrectas
-      alert('El mail ingresado no es correcto. Intentalo de nuevo.');
+      alert('No se encontró, inténtalo de nuevo.');
     }
 
   });

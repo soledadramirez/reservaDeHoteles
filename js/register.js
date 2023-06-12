@@ -28,6 +28,6 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
       localStorage.setItem('usuarios', JSON.stringify(usuarios));
   
       // Registro exitoso
-      alert('Registro exitoso');
+      window.location.href = './homeLogueado.html';
     }
   });

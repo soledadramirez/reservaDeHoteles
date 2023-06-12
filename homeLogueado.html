@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reserva de hoteles</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="/js/homeLogueado.js"></script>
+</head>
+<body>
+  <div class="bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between">
+        <a class="navbar-brand" href="homeLogueado.html">Reserva de Hoteles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end w-25" id="navbarNav">
+          <ul class="navbar-nav w-25 d-flex justify-content-left">
+            <li class="nav-item active px-2"id="logoutLink">
+              <a class="nav-link" href="home.html" id="logout">Cerrar sesión</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mi perfil
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Mi cuenta</a>
+                <a class="dropdown-item" href="#">Mis reservas</a>
+                <a class="dropdown-item" href="#">Mis puntos</a>
+                <a class="dropdown-item" href="#">Favoritos</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+        </header>
+            <div class="input-group mb-2 w-50 pb-4 m-auto">
+                <input type="text" class="form-control shadow-sm" placeholder="A donde querés ir?" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-light shadow-sm" type="button" id="button-addon2">Buscar</button>
+            </div>
+        </header>
+</div>
+
+  <div class="container text-center">
+    <div class="row row-cols-2">
+      <div class="card mt-4 shadow">
+        <img src="/imagenes/destinos.jpeg" class="card-img-top" style="height: 350px;" alt="Ofertas">
+        <div class="card-body">
+          <h3 class="card-title">Los mejores hoteles</h3>
+          <p class="card-text">Descubrí los hoteles en donde podés realizar tu reserva, a lo largo de todo el país.</p>
+          <a href= "/hoteles.html" id="hoteles" class="btn btn-primary">Conocé hoteles</a>
+        </div>
+      </div>  
+      <div class="card mt-4 shadow">
+        <img src="/imagenes/paisaje.jpeg" class="card-img-top" style="height: 350px;" alt="Destinos">
+        <div class="card-body">
+          <h3 class="card-title">Descubrí Argentina</h3>
+          <p class="card-text">Conocé los mejores destinos donde podés pasar los mejores momentos con amigos, familia o quién desees.</p>
+          <a href="#" class="btn btn-primary">Descubrí destinos</a>
+        </div>
+      </div>
+      <div class="card mt-4 shadow">
+        <img src="/imagenes/destino3.png" class="card-img-top" style="height: 350px;" alt="Destinos">
+        <div class="card-body">
+          <h3 class="card-title">Lugares destacados</h3>
+          <p class="card-text">Conocé los destinos más elegidos por nuestros huéspedes. Para planificar vacaciones o escapadas.</p>
+          <a href="#" class="btn btn-primary">Visitá lugares</a>
+        </div>
+      </div>
+      <div class="card mt-4 shadow">
+        <img src="/imagenes/destino2.avif" class="card-img-top" style="height: 350px;" alt="Destinos">
+        <div class="card-body">
+          <h3 class="card-title">Consulta tus puntos</h3>
+          <p class="card-text">Con nuestro programa "Reservá y sumá" podes ganar puntos y acceder a los mejores beneficios. Conocelos!</p>
+          <a href="#" class="btn btn-primary">Ver beneficios</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="p-3 mt-4 bg-dark text-light text-right ">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <ul class="navbar-nav w-100 d-flex justify-content-around mb-4">
+          <li class="nav-item">
+            <a href="hoteles.html" class="text-light">Hoteles</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-light">Lugares</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-light">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-light">Beneficios</a>
+          </li>
+        </ul>  
+      </nav>
+      <p class="text-right align-bottom">&copy; 2023 Reserva de Hoteles. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
