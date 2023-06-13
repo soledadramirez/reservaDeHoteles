@@ -94,17 +94,5 @@
         "categoria": "4 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
         "imagen": "/imagenes/hotel6.jpeg"
-      },
-      {
-        "id": 9,
-        "nombre": "Hotel Clásico",
-        "descripcion": "El Hotel Clasico goza de una ubicación céntrica en Buenos Aires y ofrece habitaciones confortables con conexión de wifi gratis. El hotel está a 600 metros de la plaza Serrano.",
-        "direccion": "Costa Rica 5480, CABA",
-        "telefono": "3249-0976",
-        "comida": ["pensión completa", "media pension"],
-        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
-        "categoria": "4 estrellas",
-        "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
-        "imagen": "/imagenes/hotel7.jpeg"
       }
 ]
