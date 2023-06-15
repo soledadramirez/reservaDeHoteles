@@ -17,7 +17,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
       
     } else {
       // Credenciales incorrectas
-      alert('No se encontró, inténtalo de nuevo.');
+      alert('La contraseña es incorrecta.');
     }
 
   });
