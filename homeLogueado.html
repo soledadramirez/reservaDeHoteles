@@ -37,24 +37,13 @@
         <div class="buscadorHotel col-5">
           <input type="search" id="inputBusqueda" class="form-control shadow-sm" placeholder="A donde querés ir?" aria-label="Recipient's username" aria-describedby="button-addon2">
         </div>
-        <div class="buscadorFecha d-flex col">
-          <div class="col" style="padding: 0px !important;">
-            <input type="date" id="fechaInicio" class="form-control" placeholder="Fecha entrada">
-          </div>
-          <div class="col" style="padding: 0px !important;">
-            <input type="date" id="fechaFin" class="form-control" placeholder="Fecha salida">
-          </div>
-          <div class="col-4" style="padding: 0px !important;">
-            <input type="number" min="1" max="10"  id="fecha-fin" class="form-control" placeholder="Huéspedes">
-          </div>
           <div class="">
             <button id="btnBusqueda" class="btn btn-primary ml-1">Buscar</button>
           </div>
-        </div>
     </div>
   </div> 
 
-  <div id="mainDiv" class="container text-center">
+  <div id="mainDiv" class="container text-center" style="padding: 0px !important;">
     <div class="row row-cols-2" id="detalleDiv">
       <div class="card mt-4 shadow">
         <img src="/imagenes/destinos.jpeg" class="card-img-top" style="height: 350px;" alt="Ofertas">
@@ -89,7 +78,7 @@
         </div>
       </div>
     </div>
-    <div id="resultadoDiv" style="display:none;" class="d-flex justify-content-center"></div>
+    <div id="resultadoDiv" style="display:none;"></div>
   </div>
 
   <footer>

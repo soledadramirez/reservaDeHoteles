@@ -27,12 +27,18 @@ function mostrarResultados(hoteles) {
 }
 
 function mostrarHotel (hotel) {
+  resultadoDiv = document.getElementById('resultadoDiv');
+  resultadoDiv.classList.add('row');
+  resultadoDiv.classList.add('m-auto');
+  resultadoDiv.classList.add('w-50');
+  resultadoDiv.classList.add('mt-2');
+
+
   // Crear un elemento div para la card
   var cardDiv = document.createElement('div');
   cardDiv.classList.add('card');
-  cardDiv.classList.add("my-1");
+  cardDiv.classList.add("mt-1");
   cardDiv.classList.add("shadow");
-  cardDiv.classList.add('w-50');
 
   // Crear un elemento img para la imagen de la card
   var img = document.createElement('img');
@@ -80,12 +86,18 @@ function mostrarHotel (hotel) {
     img.style.height="350px";
     img.src = hotel.imagen;
     img.alt = 'Hotel';
+    //crear el boton para rservar y pasar el dato del hotel
+    var enlace = document.createElement('a');
+    enlace.href = `/reserva.html?dato=${hotel.id}`;
+    enlace.className = 'btn btn-primary';
+    enlace.textContent = 'Reservar ahora';
 
   // Agregar los elementos al documento
   cardBodyDiv.appendChild(titleH5);
   cardBodyDiv.appendChild(contentDir);
   cardBodyDiv.appendChild(contentCat);
   cardBodyDiv.appendChild(contentP);
+  cardBodyDiv.appendChild(enlace);
   cardDiv.appendChild(img);
   cardDiv.appendChild(cardBodyDiv);
 

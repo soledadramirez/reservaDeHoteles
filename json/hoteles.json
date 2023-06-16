@@ -9,7 +9,38 @@
       "provincia": "cordoba",
       "telefono": "4567-8989",
       "comida": ["pensión completa", "media pension"],
-      "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+      "habitaciones": [{
+        "id": 1,
+        "tipo":"Doble - cama matrimonial",
+        "capacidad":2,
+        "precioPorNoche": 5000,
+        "servicioExtra": ["lavado", "planchado","frigobar"],
+        "precioPorServicioExtra": 500
+      },
+      {
+        "id": 2,
+        "tipo":"Doble - camas individuales",
+        "capacidad":2,
+        "precioPorNoche": 4500,
+        "servicioExtra": ["frigobar"],
+        "precioPorServicioExtra": 500
+      },
+      {
+        "id": 3,
+        "tipo":"Familiar - cuádruple",
+        "capacidad":4,
+        "precioPorNoche": 9000,
+        "servicioExtra": ["lavado", "planchado","frigobar"],
+        "precioPorServicioExtra": 400
+      },
+      {
+        "id": 4,
+        "tipo":"Familiar - seis huéspedes",
+        "capacidad":6,
+        "precioPorNoche": 13000,
+        "servicioExtra": ["lavado", "planchado"],
+        "precioPorServicioExtra": 350
+      }],
       "categoria": "4 estrellas",
       "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta"],
       "imagen": "/imagenes/hotel9.jpeg",
@@ -25,7 +56,38 @@
         "provincia": "Salta",
         "telefono": "5673-9845",
         "comida": ["pensión completa", "media pension"],
-        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "habitaciones":[{
+          "id": 1,
+          "tipo":"Doble - cama matrimonial",
+          "capacidad":2,
+          "precioPorNoche": 8000,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 800
+        },
+        {
+          "id": 2,
+          "tipo":"Doble - camas individuales",
+          "capacidad":2,
+          "precioPorNoche": 7000,
+          "servicioExtra": ["frigobar"],
+          "precioPorServicioExtra": 700
+        },
+        {
+          "id": 3,
+          "tipo":"Familiar - cuádruple",
+          "capacidad":4,
+          "precioPorNoche": 13000,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 700
+        },
+        {
+          "id": 4,
+          "tipo":"Familiar - seis huéspedes",
+          "capacidad":6,
+          "precioPorNoche": 16000,
+          "servicioExtra": ["lavado", "planchado"],
+          "precioPorServicioExtra": 700
+        }],
         "categoria": "4 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado"],
         "imagen": "/imagenes/hotel2.jpeg",
@@ -41,7 +103,38 @@
         "provincia": "Mendoza",
         "telefono": "0234-6543",
         "comida": ["pensión completa", "media pension"],
-        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "habitaciones": [{
+          "id": 1,
+          "tipo":"Doble - cama matrimonial",
+          "capacidad":2,
+          "precioPorNoche": 6500,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 700
+        },
+        {
+          "id": 2,
+          "tipo":"Doble - camas individuales",
+          "capacidad":2,
+          "precioPorNoche": 6500,
+          "servicioExtra": ["frigobar"],
+          "precioPorServicioExtra": 600
+        },
+        {
+          "id": 3,
+          "tipo":"Familiar - cuádruple",
+          "capacidad":4,
+          "precioPorNoche": 10000,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 700
+        },
+        {
+          "id": 4,
+          "tipo":"Familiar - seis huéspedes",
+          "capacidad":6,
+          "precioPorNoche": 15000,
+          "servicioExtra": ["lavado", "planchado"],
+          "precioPorServicioExtra": 800
+        }],
         "categoria": "4 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
         "imagen": "/imagenes/hotel3.jpeg",
@@ -57,7 +150,30 @@
         "provincia": "Río Negro",
         "telefono": "0345-7629",
         "comida": ["pensión completa", "media pension"],
-        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "habitaciones": [{
+          "id": 1,
+          "tipo":"Doble - cama matrimonial",
+          "capacidad":2,
+          "precioPorNoche": 7000,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 700
+        },
+        {
+          "id": 2,
+          "tipo":"Doble - camas individuales",
+          "capacidad":2,
+          "precioPorNoche": 6000,
+          "servicioExtra": ["frigobar"],
+          "precioPorServicioExtra": 600
+        },
+        {
+          "id": 3,
+          "tipo":"Familiar - seis huéspedes",
+          "capacidad":6,
+          "precioPorNoche": 16000,
+          "servicioExtra": ["lavado", "planchado"],
+          "precioPorServicioExtra": 800
+        }],
         "categoria": "5 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
         "imagen": "/imagenes/hotel4.jpeg",
@@ -73,7 +189,38 @@
         "provincia": "Buenos Aires",
         "telefono": "0373-7643",
         "comida": ["pensión completa", "media pension"],
-        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "habitaciones": [{
+          "id": 1,
+          "tipo":"Doble - cama matrimonial",
+          "capacidad":2,
+          "precioPorNoche": 6500,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 700
+        },
+        {
+          "id": 2,
+          "tipo":"Doble - camas individuales",
+          "capacidad":2,
+          "precioPorNoche": 6500,
+          "servicioExtra": ["frigobar"],
+          "precioPorServicioExtra": 600
+        },
+        {
+          "id": 3,
+          "tipo":"Familiar - cuádruple",
+          "capacidad":4,
+          "precioPorNoche": 10000,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 700
+        },
+        {
+          "id": 4,
+          "tipo":"Familiar - seis huéspedes",
+          "capacidad":6,
+          "precioPorNoche": 15000,
+          "servicioExtra": ["lavado", "planchado"],
+          "precioPorServicioExtra": 800
+        }],
         "categoria": "4 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
         "imagen": "/imagenes/hotel5.webp",
@@ -89,7 +236,38 @@
         "provincia": "Buenos Aires",
         "telefono": "0373-5540",
         "comida": ["pensión completa", "media pension"],
-        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "habitaciones": [{
+          "id": 1,
+          "tipo":"Doble - cama matrimonial",
+          "capacidad":2,
+          "precioPorNoche": 6500,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 750
+        },
+        {
+          "id": 2,
+          "tipo":"Doble - camas individuales",
+          "capacidad":2,
+          "precioPorNoche": 5800,
+          "servicioExtra": ["frigobar"],
+          "precioPorServicioExtra": 630
+        },
+        {
+          "id": 3,
+          "tipo":"Familiar - cuádruple",
+          "capacidad":4,
+          "precioPorNoche": 11500,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 600
+        },
+        {
+          "id": 4,
+          "tipo":"Familiar - seis huéspedes",
+          "capacidad":6,
+          "precioPorNoche": 15500,
+          "servicioExtra": ["lavado", "planchado"],
+          "precioPorServicioExtra": 850
+        }],
         "categoria": "3 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
         "imagen": "/imagenes/hotel1.jpeg",
@@ -105,7 +283,30 @@
         "provincia": "Misiones",
         "telefono": "0373-5540",
         "comida": ["pensión completa", "media pension"],
-        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "habitaciones": [{
+          "id": 1,
+          "tipo":"Doble - cama matrimonial",
+          "capacidad":2,
+          "precioPorNoche": 7000,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 700
+        },
+        {
+          "id": 2,
+          "tipo":"Familiar - cuádruple",
+          "capacidad":4,
+          "precioPorNoche": 12000,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 600
+        },
+        {
+          "id": 3,
+          "tipo":"Familiar - seis huéspedes",
+          "capacidad":6,
+          "precioPorNoche": 16000,
+          "servicioExtra": ["lavado", "planchado"],
+          "precioPorServicioExtra": 800
+        }],
         "categoria": "3 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
         "imagen": "/imagenes/hotel8.jpeg",
@@ -121,7 +322,30 @@
         "provincia": "Buenos Aires",
         "telefono": "3249-0976",
         "comida": ["pensión completa", "media pension"],
-        "habitaciones": ["doble", "familiar x 4", "familiar x 6"],
+        "habitaciones": [{
+          "id": 1,
+          "tipo":"Doble - cama matrimonial",
+          "capacidad":2,
+          "precioPorNoche": 7000,
+          "servicioExtra": ["lavado", "planchado","frigobar"],
+          "precioPorServicioExtra": 700
+        },
+        {
+          "id": 2,
+          "tipo":"Doble - camas individuales",
+          "capacidad":2,
+          "precioPorNoche": 6000,
+          "servicioExtra": ["frigobar"],
+          "precioPorServicioExtra": 600
+        },
+        {
+          "id": 3,
+          "tipo":"Familiar - seis huéspedes",
+          "capacidad":6,
+          "precioPorNoche": 16000,
+          "servicioExtra": ["lavado", "planchado"],
+          "precioPorServicioExtra": 800
+        }],
         "categoria": "4 estrellas",
         "servicios": ["restaurante", "wifi gratis", "gimnasio", "aire acondicionado", "pileta", "estacionamiento privado"],
         "imagen": "/imagenes/hotel6.jpeg",
