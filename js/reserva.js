@@ -1,5 +1,7 @@
 let hotel;
 let reservaTotal = 0;
+let totalHabitaciones = 0;
+let totalNoches = 0;
 
 function encontrarHotel (data) {
     return hotel = data.find(objeto => objeto.id == idBuscado);
@@ -62,6 +64,8 @@ function mostrarHabitaciones(hotel){
             if(rangoFechas && cantidadHabitaciones) {
                 let precio = cantidadHabitaciones * rangoFechas * habitacion.precioPorNoche;
                 reservaTotal += precio;
+                totalHabitaciones += parseInt(cantidadHabitaciones);
+                totalNoches += rangoFechas;
                 celda7.textContent = `$${precio}`;
             } 
         })
@@ -125,5 +129,5 @@ function mostrarRango (){
 
 function mostrarTotal () {
     let detalle = document.getElementById('detalle');
-    detalle.textContent = `La reserva total es de $${reservaTotal}`;
+    detalle.textContent = `El valor de la reserva por ${totalNoches} noches para ${totalHabitaciones} habitaciones es de $${reservaTotal} `;
 }
